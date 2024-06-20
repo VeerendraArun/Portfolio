@@ -180,3 +180,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
 } 
+
+.pros{
+    display: flex;
+    align-items: center;
+}
