@@ -65,6 +65,7 @@ body{
     border-radius: 10px;
     padding-left: 40px;
     padding-right: 40px;
+
 }
 .center h2{
     font-family: "magtis";
@@ -103,7 +104,7 @@ body{
     font-size: x-large;
 }
 .center img{
-    align-items: center; 
+    display: flex;
 }
 .link{
     text-decoration: none;
@@ -184,4 +185,8 @@ body{
 .pros{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+
 }
