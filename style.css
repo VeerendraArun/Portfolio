@@ -103,7 +103,7 @@ body{
     font-size: x-large;
 }
 .center img{
-    padding-left: 460px; 
+    align-items: center; 
 }
 .link{
     text-decoration: none;
