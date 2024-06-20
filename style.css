@@ -1,0 +1,178 @@
+body{
+    background-image: url("assets/samurai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+
+}
+.logo{
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 80 px;
+    width: 50px;
+    padding: 20px 100x;
+    
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 13px;
+    font-size: 20px;
+    transition: .4s;
+    font-family: "rockstar";
+    border-radius: 10px;
+}
+.navbar ul li.active,
+.navbar ul li a:hover{
+    background: black;
+    color: red;
+    
+}
+@font-face {
+    font-family: "musashi";
+    src: url("D:/Venky/website/fonts/musashi.ttf");
+}
+
+@font-face {
+    font-family: "rockstar";
+    src: url("D:/Venky/website/fonts/rockstar.otf");
+}
+@font-face {
+    font-family: "magtis";
+    src: url("D:/Venky/website/fonts/magtis.otf");
+}
+.center{
+    position: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.center h2{
+    font-family: "magtis";
+    margin: .5px;
+    text-align: center;
+    font-size: 75px;
+    color: white;
+}
+.center h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: white;
+}
+.center h1{
+    font-family: "magtis";
+    text-align: center;
+    margin-top: 0%;
+    font-size: 90px;
+    color: white;
+}
+.center p{
+    font-family: "rockstar";
+    text-align: center;
+    font-size: 20px;
+    color: rgb(169,169,169);
+    text-align: center;
+}
+.center ul li{
+    font-family: "sans";
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+}
+.center img{
+    padding-left: 460px; 
+}
+.link{
+    text-decoration: none;
+    text-align: center;
+    font-family: "rockstar";
+}
+.counter{
+    margin: 50px;
+    padding: 15px;
+    padding-left: 35%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.gmail{
+    width: 35px;
+
+}
+.text{
+    color: white;
+    font-family: "rockstar";
+    
+}
+.ll{
+    width: 35px;
+}
+.first{
+    font-family: "magtis";
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.card1{
+    background-image: url(python.jpeg);
+}
+.card2{
+    background-image: url(cprog.jpg);
+}
+.card3{
+    background-image: url(html5.png);
+}
+.card4{
+    background-image: url(css.jpg);
+}
+.card5{
+    background-image: url(sql.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.counte{
+    padding-left: 75px;
+}
