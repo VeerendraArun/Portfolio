@@ -46,16 +46,16 @@ body{
 }
 @font-face {
     font-family: "musashi";
-    src: url("D:/Venky/website/fonts/musashi.ttf");
+    src: url("fonts/musashi.ttf");
 }
 
 @font-face {
     font-family: "rockstar";
-    src: url("D:/Venky/website/fonts/rockstar.otf");
+    src: url("fonts/rockstar.otf");
 }
 @font-face {
     font-family: "magtis";
-    src: url("D:/Venky/website/fonts/magtis.otf");
+    src: url("fonts/magtis.otf");
 }
 .center{
     position: center;
@@ -154,19 +154,19 @@ body{
 }
 
 .card1{
-    background-image: url(python.jpeg);
+    background-image: url(assets/python.jpeg);
 }
 .card2{
-    background-image: url(cprog.jpg);
+    background-image: url(assets/cprog.jpg);
 }
 .card3{
-    background-image: url(html5.png);
+    background-image: url(assets/html5.png);
 }
 .card4{
-    background-image: url(css.jpg);
+    background-image: url(assets/css.jpg);
 }
 .card5{
-    background-image: url(sql.jpg);
+    background-image: url(assets/sql.jpg);
 }
 
 .card:hover{
